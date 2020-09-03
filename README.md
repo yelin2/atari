@@ -13,6 +13,6 @@ reference: https://github.com/higgsfield/RL-Adventure
 
 detail:my notion link
 
-results
+result
 
-<iframe width="1280" height="736" src="https://www.youtube.com/embed/RaiSTM8A2B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![results](https://i9.ytimg.com/vi/RaiSTM8A2B0/mq2.jpg?sqp=CISBwvoF&rs=AOn4CLDhsW44aPeV8Xyxk6R87wcHYDhm0Q)](https://www.youtube.com/embed/RaiSTM8A2B0?t=0s) 
