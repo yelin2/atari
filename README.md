@@ -15,4 +15,4 @@ detail:my notion link
 
 results
 
-<iframe width="640" height="360" src="https://youtu.be/RaiSTM8A2B0" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+<iframe width="1280" height="736" src="https://www.youtube.com/embed/RaiSTM8A2B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
