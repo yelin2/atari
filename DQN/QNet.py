@@ -3,7 +3,6 @@ import random
 
 import torch
 import torch.nn as nn
-# import torch.nn.Functional as F
 
 class QNet(nn.Module):
     def __init__(self, input_shape, num_actions):
@@ -15,14 +14,11 @@ class QNet(nn.Module):
         self.conv1 = nn.Conv2d(input_shape[0], 32, kernel_size=8, stride=4)
         self.conv2 = nn.Conv2d(32, 64, kernel_size=4, stride=2)
         self.conv3 = nn.Conv2d(64, 64, kernel_size=3, stride=1)
-        # check: fc1 input shape
         self.fc1 = nn.Linear(7*7*64, 512)
         self.fc2 = nn.Linear(512, self.num_actions)
         self.relu = nn.ReLU()
 
     def forward(self, x):
-        # if len(x.shape) != 4:
-        #     x = x.unsqueeze(0)
         x = self.conv1(x.cuda())
         x = self.relu(x)
         x = self.conv2(x)
